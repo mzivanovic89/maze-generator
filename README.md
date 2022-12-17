@@ -5,7 +5,7 @@ More about randomized depth-first search algorithm [here](https://en.wikipedia.o
 
 ## Live version
 
-View live version of the code [here]().
+View live version of the code [here](https://mzivanovic89.github.io/maze-generator).
 
 ## Run Maze Generator localy
 
