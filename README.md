@@ -1,6 +1,5 @@
 # Maze Generator
 
-More about maze generators [here](https://en.wikipedia.org/wiki/Maze_generation_algorithm). \
 More about randomized depth-first search algorithm [here](https://en.wikipedia.org/wiki/Maze_generation_algorithm#Randomized_depth-first_search).
 
 ## Live version
