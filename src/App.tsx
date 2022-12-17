@@ -4,7 +4,7 @@ import useInterval from './hooks/useInterval';
 import useWindowDimensions from './hooks/useWindowDimensions';
 import { ICell } from './types';
 import { Cell, getCellBorders, getCellColor } from './utils/Cell';
-import { createGrid, getGridNextCell, isMazeDone, removeGridWallsBetween, visitGridCell } from './utils/Grid';
+import { createGrid, getGridNextCell, removeGridWallsBetween, visitGridCell } from './utils/Grid';
 
 const App: React.FC = () => {
   const { height, width } = useWindowDimensions();
