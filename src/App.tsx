@@ -17,7 +17,11 @@ const App: React.FC = () => {
 
   const [stack, setStack] = useState<ICell[]>([]);
 
-  const resetGrid = () => setGrid(() => createGrid(gridHeight, gridWidth));
+  const resetGrid = () => {
+    setGrid(() => createGrid(gridHeight, gridWidth));
+    setCurrentCell(Cell(0, 0));
+    setStack([]);
+  };
 
   // refresh grid when window resizes to fit +1/-1 row/column
   useEffect(resetGrid, [gridHeight, gridWidth]);
